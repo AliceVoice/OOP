@@ -16,6 +16,5 @@ public class Main {
         Slytherin graham = new Slytherin("Грэхэм Монтегю", 11, 15, 13, 46, 1, 4, 7);
         Slytherin gregory = new Slytherin("Грегори Гойл", 26, 41, 33, 33, 31, 2, 4);
 
-        PrintService.BestHogwartsStudent(harry,drako);
     }
 }
