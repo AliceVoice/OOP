@@ -1,5 +1,5 @@
 public class PrintService {
-    public static void BestGryffindorStudent(Gryffindor student1, Gryffindor student2) {
+    public void BestGryffindorStudent(Gryffindor student1, Gryffindor student2) {
         int sumStudent1 = student1.getMagicPower() + student1.getTransgressionDistance() + student1.getNobility() + student1.getHonor() + student1.getBravery();
         int sumStudent2 = student2.getMagicPower() + student2.getTransgressionDistance() + student2.getNobility() + student2.getHonor() + student2.getBravery();
 
@@ -11,7 +11,7 @@ public class PrintService {
         }
     }
 
-    public static void BestHufflepuffStudent(Hufflepuff student1, Hufflepuff student2) {
+    public void BestHufflepuffStudent(Hufflepuff student1, Hufflepuff student2) {
         int sumStudent1 = student1.getMagicPower() + student1.getTransgressionDistance() + student1.getHardworking() + student1.getHonest() + student1.getLoyal();
         int sumStudent2 = student2.getMagicPower() + student2.getTransgressionDistance() + student2.getHardworking() + student2.getHonest() + student2.getLoyal();
 
@@ -23,7 +23,7 @@ public class PrintService {
         }
     }
 
-    public static void BestRavenclawStudent(Ravenclaw student1, Ravenclaw student2) {
+    public void BestRavenclawStudent(Ravenclaw student1, Ravenclaw student2) {
         int sumStudent1 = student1.getMagicPower() + student1.getTransgressionDistance() + student1.getSmart() + student1.getWise() + student1.getWitty();
         int sumStudent2 = student2.getMagicPower() + student2.getTransgressionDistance() + student2.getSmart() + student2.getWise() + student2.getWitty();
 
@@ -35,7 +35,7 @@ public class PrintService {
         }
     }
 
-    public static void BestSlytherinStudent(Slytherin student1, Slytherin student2) {
+    public void BestSlytherinStudent(Slytherin student1, Slytherin student2) {
         int sumStudent1 = student1.getMagicPower() + student1.getTransgressionDistance() + student1.getCunning() + student1.getDetermination() + student1.getAmbition() + student1.getThirstOfPower() + student1.getResourcefulness();
         int sumStudent2 = student2.getMagicPower() + student2.getTransgressionDistance() + student2.getCunning() + student2.getDetermination() + student2.getAmbition() + student2.getThirstOfPower() + student2.getResourcefulness();
 
@@ -48,7 +48,7 @@ public class PrintService {
 
     }
 
-    public static void BestHogwartsStudent(Hogwarts student1, Hogwarts student2) {
+    public void BestHogwartsStudent(Hogwarts student1, Hogwarts student2) {
         int sumStudent1 = student1.getMagicPower() + student1.getTransgressionDistance();
         int sumStudent2 = student2.getMagicPower() + student2.getTransgressionDistance();
 

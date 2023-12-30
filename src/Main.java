@@ -1,5 +1,6 @@
 public class Main {
     public static void main(String[] args) {
+        PrintService printService = new PrintService();
         Gryffindor harry = new Gryffindor("Гарри Поттер", 77, 30, 45, 64, 12);
         Gryffindor germiona = new Gryffindor("Гермиона Грейнджер", 40, 70, 25, 14, 32);
         Gryffindor ron = new Gryffindor("Рон Уизли", 10, 20, 65, 14, 42);
@@ -15,6 +16,5 @@ public class Main {
         Slytherin drako = new Slytherin("Драко Малфой", 11, 45, 23, 43, 21, 3, 1);
         Slytherin graham = new Slytherin("Грэхэм Монтегю", 11, 15, 13, 46, 1, 4, 7);
         Slytherin gregory = new Slytherin("Грегори Гойл", 26, 41, 33, 33, 31, 2, 4);
-
     }
 }
